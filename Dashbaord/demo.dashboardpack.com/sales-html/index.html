@@ -1,0 +1,144 @@
+
+
+    <link rel="stylesheet" href="css/bootstrap1.min.css" />
+    <link rel="stylesheet" href="vendors/themefy_icon/themify-icons.css">
+    <link rel="stylesheet" href="vendors/font_awesome/css/all.min.css" />
+    <link rel="stylesheet" href="css/style1.css" />
+    
+
+
+<body class="crm_body_bg">
+
+
+    <nav class="sidebar vertical-scroll  ps-container ps-theme-default ps-active-y">
+        <div class="logo d-flex justify-content-between">
+            <a href="index.html"><img src="img/logo.png" alt></a>
+            <div class="sidebar_close_icon d-lg-none">
+                <i class="ti-close"></i>
+            </div>
+        </div>
+        <ul id="sidebar_menu">
+            <li class="mm-active">
+                <a class="has-arrow" href="#" aria-expanded="false">
+                    <div class="icon_menu">
+                        <img src="img/menu-icon/dashboard.svg" alt>
+                    </div>
+                    <span>Dashboard</span>
+                </a>
+            </li>
+            <li class>
+                <a class="has-arrow" href="#" aria-expanded="false">
+                    <div class="icon_menu">
+                        <img src="img/menu-icon/2.svg" alt>
+                    </div>
+                    <span>Apps</span>
+                </a>
+            </li>
+            <li class>
+                <a class="has-arrow" href="#" aria-expanded="false">
+                    <div class="icon_menu">
+                        <img src="img/menu-icon/3.svg" alt>
+                    </div>
+                    <span>UI Kits</span>
+                </a>
+            </li>
+            <li class>
+                <a class="has-arrow" href="#" aria-expanded="false">
+                    <div class="icon_menu">
+                        <img src="img/menu-icon/4.svg" alt>
+                    </div>
+                    <span>forms</span>
+                </a>
+            </li>
+                    
+        </ul>
+    </nav>
+
+    <section class="main_content dashboard_part large_header_bg">
+
+        <div class="container-fluid g-0">
+            <div class="row">
+                <div class="col-lg-12 p-0">
+                    <div class="header_iner d-flex justify-content-between align-items-center">
+                        <div class="sidebar_icon d-lg-none">
+                            <i class="ti-menu"></i>
+                        </div>
+                        <div class="serach_field-area d-flex align-items-center">
+                            <div class="search_inner">
+                                <form action="#">
+                                    <div class="search_field">
+                                        <input type="text" placeholder="Search here...">
+                                    </div>
+                                    <button type="submit"> <img src="img/icon/icon_search.svg" alt> </button>
+                                </form>
+                            </div>
+                            <span class="f_s_14 f_w_400 ml_25 white_text text_white">Apps</span>
+                        </div>
+                        <div class="header_right d-flex justify-content-between align-items-center">
+                          
+                            <div class="profile_info">
+                                <img src="img/client_img.png" alt="#">
+                                <div class="profile_info_iner">
+                                    <div class="profile_author_name">
+                                        <p>Project Enginner </p>
+                                        <h5>Dr. Rohit</h5>
+                                    </div>
+                                    <div class="profile_info_details">
+                                        
+                                        <a href="#">Log Out </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="main_content_iner overly_inner ">
+            <div class="container-fluid p-0 ">
+
+                <div class="row">
+                    <div class="col-12">
+                        <div class="page_title_box d-flex align-items-center justify-content-between">
+                            <div class="page_title_left">
+                                <h3 class="f_s_30 f_w_700 text_white">Dashboard</h3>
+                                <ol class="breadcrumb page_bradcam mb-0">
+                                    <li class="breadcrumb-item"><a href="javascript:void(0);">Dashboard</a></li>
+                                    <li class="breadcrumb-item active">Call Logs</li>
+                                </ol>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row ">
+                    <div class="col-lg-12 card_height_100">
+                        <div class="white_card mb_20">
+                            <div class="white_card_header">
+                                <div class="box_header m-0">
+                                    <div class="main-title">
+                                        <h3 class="m-0">Actionable Calls</h3>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                            <div class="white_card_body" style="height: 286px;">
+                                <canvas id="bar"></canvas>
+                            </div>
+                        </div>
+                    </div>
+            
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div id="back-top" style="display: none;">
+        <a title="Go to Top" href="#">
+            <i class="ti-angle-up"></i>
+        </a>
+    </div>
+
+    <script src="js/jquery1-3.4.1.min.js"></script>
+    <script src="js/metisMenu.js"></script>
+    <script src="js/custom.js"></script>
